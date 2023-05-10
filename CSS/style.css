@@ -1,0 +1,248 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+:root {
+    --primary-color: white;
+    --nav-color: rgb(49, 30, 93);
+    --text-color: rgb(43, 43, 43);
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav {
+    background: rgb(113, 23, 173);
+    color: var(--primary-color);
+    width: 100%;
+    min-width: 550px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 3px;
+    box-shadow: 4px 4px 10px black;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-weight: bolder;
+    
+
+}
+
+
+
+ul, li {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-right: 20px;
+    font-size: 1.1em;
+    flex-wrap: nowrap;
+}
+
+li {
+    padding: 5px;
+    
+}
+
+
+li:hover {
+    text-decoration: underline;
+    transition: all .5s ease-in;
+    background-color: aqua;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.logo {
+    display: flex;
+    height: 80px;
+    justify-self: flex-start;
+    margin-bottom: 10px;
+}
+
+.text-main {
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 10px;
+    color: var(--text-color);
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(245, 240, 240);
+}
+
+.text-main > h1 {
+    font-style: italic;
+    text-shadow: 1px 1px 2px black;
+    margin-top: 20px;
+}
+
+
+
+.parallax {
+   height: 600px;
+   background-color: aliceblue;
+   width: 100vw;
+   padding: 20px;
+   background: url('../imgs/Artboard_1_copy_2.png') no-repeat fixed center center;
+   margin-top: 47px;
+   position: relative;
+   box-shadow: inset 3px 3px 10px black;
+   background-size: cover;
+   
+}
+
+.ciencia {
+    
+    align-items: flex-end;
+    height: 300px;
+    width: 300px;
+    position: relative;
+
+}
+
+
+.ciencia svg {
+    position: absolute;
+    left: 1550px;
+    height: 300px;
+    width: 300px;
+    bottom: 400px;
+}
+
+.drone {
+    align-items: flex-start;
+    position: relative;
+}
+
+.drone svg {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 20px;
+    bottom: 180px;
+}
+
+.texto {
+    padding: 15px;
+    margin-top: 90px;
+    color: var(--primary-color);
+    max-width: 300px;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+
+.ben-nuclear {
+    max-width: 1000px;
+    background-color: rgb(250, 241, 241);
+    color: var(--text-color);
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.ben-nuclear > p{
+    text-indent: 10px;
+}
+
+.ben-nuclear h1 {
+    margin-bottom: 20px;
+}
+
+.descobertas {
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    color: var(--text-color);
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.descobertas {
+    text-indent: 10px;
+}
+
+.descobertas h1 {
+    margin-bottom: 20px;
+} 
+
+.beneficios {
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    color: var(--text-color);
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.beneficios > p {
+    text-indent: 10px;
+}
+
+.beneficios h1 {
+    margin-bottom: 20px;
+}
+
+#h1-eolica {
+    font-style: italic;
+    text-shadow: 1px 1px 2px black;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.text-eolica {
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    color: var(--text-color);
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 50px; 
+}
+
+.text-eolica > p {
+    text-indent: 10px;
+}
+
+.text-eolica h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.parallax-eolica {
+    height: 600px;
+   background-color: aliceblue;
+   width: 100vw;
+   padding: 20px;
+   background: url('../imgs/eolica.jpg') no-repeat fixed center center;
+   margin-top: 47px;
+   position: relative;
+   box-shadow: inset 3px 3px 10px black;
+   background-size: cover;
+}
+
+footer {
+    background-color: var(--nav-color);
+    width: 100%;
+    height: 200px;
+}
+
+
