@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -11,11 +15,13 @@ html {
     --primary-color: white;
     --nav-color: rgb(49, 30, 93);
     --text-color: rgb(43, 43, 43);
+    --font-h1: 'Chakra Petch', sans-serif;
+    --font-site: 'Open Sans', sans-serif;
 }
 
 body {
     background-color: var(--primary-color);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-site);
 }
 
 
@@ -40,7 +46,7 @@ nav {
 
 
 
-ul, li {
+.listas, .listas-nav {
     list-style: none;
     display: flex;
     gap: 30px;
@@ -49,16 +55,16 @@ ul, li {
     flex-wrap: nowrap;
 }
 
-li {
-    padding: 5px;
-    
+.listas-nav {
+    padding: 4px;
+    border-radius: 10px;
 }
 
 
-li:hover {
-    text-decoration: underline;
+.listas-nav:hover {
     transition: all .5s ease-in;
-    background-color: aqua;
+    background-color: rgb(40, 113, 209);
+    box-shadow: 1px 1px 7px black;
 }
 
 a {
@@ -67,8 +73,9 @@ a {
 }
 
 .logo {
+    padding-right: 40px;
     display: flex;
-    height: 80px;
+    height: 90px;
     justify-self: flex-start;
     margin-bottom: 10px;
 }
@@ -106,40 +113,19 @@ a {
    
 }
 
-.ciencia {
-    
-    align-items: flex-end;
-    height: 300px;
-    width: 300px;
-    position: relative;
 
-}
-
-
-.ciencia svg {
-    position: absolute;
-    left: 1550px;
-    height: 300px;
-    width: 300px;
-    bottom: 400px;
-}
-
-.drone {
-    align-items: flex-start;
-    position: relative;
-}
-
-.drone svg {
-    height: 300px;
-    width: 300px;
-    position: absolute;
-    left: 20px;
-    bottom: 180px;
+.h1-gradient {
+    background-image: linear-gradient( to right, rgb(212, 162, 245), var(--primary-color));
+    padding-left: 10px;
+    text-shadow: 1px 1px 25px black;
+    color: black;
+    border-radius: 10px;
+    font-family: var(--font-h1);
 }
 
 .texto {
     padding: 15px;
-    margin-top: 90px;
+    margin-top: 35px;
     color: var(--primary-color);
     max-width: 300px;
     background-color: rgba(0, 0, 0, 0.63);
@@ -178,8 +164,13 @@ a {
     text-indent: 10px;
 }
 
-.descobertas h1 {
+.descobertas > h1 {
+    background-image: linear-gradient( to right, rgb(212, 162, 245), var(--primary-color));
     margin-bottom: 20px;
+    text-shadow: 1px 1px 25px black;
+    color: black;
+    border-radius: 10px;
+    font-family: var(--font-h1);
 } 
 
 .beneficios {
@@ -200,7 +191,7 @@ a {
     margin-bottom: 20px;
 }
 
-#h1-eolica {
+.h1-parallax {
     font-style: italic;
     text-shadow: 1px 1px 2px black;
     margin-top: 20px;
@@ -227,6 +218,179 @@ a {
     margin-bottom: 20px;
 }
 
+.desco-eolica {
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    color: var(--text-color);
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.desco-eolica > p {
+    text-indent: 10px;
+}
+
+.desco-eolica h1 {
+    
+    margin-bottom: 20px;
+}
+
+.ben-eolica {
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    color: var(--text-color);
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.ben-eolica > p {
+    text-indent: 10px;
+}
+
+.ben-eolica h1 {
+    
+    margin-bottom: 20px;
+}
+
+
+
+.func-solar {
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    color: var(--text-color);
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.func-solar > p {
+    text-indent: 10px;
+}
+
+.func-solar h1 {
+    
+    margin-bottom: 20px;
+}
+
+.desco-solar {
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    color: var(--text-color);
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 50px;
+    
+}
+
+.desco-solar > p {
+    text-indent: 10px;
+}
+
+.desco-solar h1 {
+    
+    margin-bottom: 20px;
+}
+
+.benef-solar {
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    color: var(--text-color);
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 50px;
+    
+}
+
+.benef-solar > p {
+    text-indent: 10px;
+}
+
+.benef-solar h1 {
+    
+    margin-bottom: 20px;
+}
+
+
+.func-oceanica {
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    color: var(--text-color);
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.func-oceanica > p {
+    text-indent: 10px;
+}
+
+.func-oceanica h1 {
+    
+    margin-bottom: 20px;
+}
+
+.desco-oceanica {
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    color: var(--text-color);
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 50px;
+    
+}
+
+.desco-oceanica > p {
+    text-indent: 10px;
+}
+
+.desco-oceanica h1 {
+    
+    margin-bottom: 20px;
+}
+
+.benef-oceanica {
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    color: var(--text-color);
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 50px;
+    
+}
+
+.benef-oceanica > p {
+    text-indent: 10px;
+}
+
+.benef-oceanica h1 {
+    
+    margin-bottom: 20px;
+}
+
+#parallax-solar {
+    height: 600px;
+   background-color: aliceblue;
+   width: 100vw;
+   padding: 20px;
+   background: url('../imgs/solar.jpg') no-repeat fixed center center;
+   margin-top: 47px;
+   position: relative;
+   box-shadow: inset 3px 3px 10px black;
+   background-size: cover;
+} 
+
 .parallax-eolica {
     height: 600px;
    background-color: aliceblue;
@@ -239,10 +403,57 @@ a {
    background-size: cover;
 }
 
+.parallax-oceanica {
+    height: 600px;
+    background-color: aliceblue;
+    width: 100vw;
+    padding: 20px;
+    background: url('../imgs/oceanica.jpg') no-repeat fixed center center;
+    margin-top: 47px;
+    position: relative;
+    box-shadow: inset 3px 3px 10px black;
+    background-size: cover;
+}
+
+.nomes {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 50px;
+    padding: 40px;
+}
+
+.nm1, .nm2 > h2 {
+    color: var(--primary-color);
+}
+
+.nm1 {
+    padding: 10px;
+    height: auto;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.li-nm1 {
+    display: block;
+    list-style: circle;
+    color: var(--primary-color);
+    margin-top: 10px;
+}
+
+.nm2 {
+    padding: 10px;
+    height: auto;
+    width: 400px;
+    border-radius: 10px;
+}
+
 footer {
     background-color: var(--nav-color);
     width: 100%;
-    height: 200px;
+    height: 100%;
+    text-shadow: 1px 1px 3px black;
 }
+
 
 
