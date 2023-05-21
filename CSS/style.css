@@ -44,7 +44,9 @@ nav {
 
 }
 
-
+p {
+    font-weight: bold;
+}
 
 .listas, .listas-nav {
     list-style: none;
@@ -451,7 +453,7 @@ a {
 
 footer {
     background-color: var(--nav-color);
-    width: 100%;
+    width: 100vw;
     height: 100%;
     text-shadow: 1px 1px 3px black;
 }
