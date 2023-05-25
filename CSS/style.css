@@ -134,6 +134,10 @@ a {
     height: auto;
 }
 
+.texto h2 {
+    margin-bottom: 20px;
+}
+
 
 .ben-nuclear {
     max-width: 1000px;
