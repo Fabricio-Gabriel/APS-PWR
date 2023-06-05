@@ -54,7 +54,7 @@ p {
     gap: 30px;
     margin-right: 20px;
     font-size: 1.1em;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 
@@ -95,10 +95,12 @@ a {
 
     .listas-nav {
         margin: 0;
+        background-color: black;
     }
 
     .listas {
-        margin-right: 130px;
+        margin-right: 135px;
+        background-color: aqua;
     }
 }
 
