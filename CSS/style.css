@@ -22,13 +22,14 @@ html {
 body {
     background-color: var(--primary-color);
     font-family: var(--font-site);
+    width: 100vw;
 }
 
 
 nav {
     background: rgb(113, 23, 173);
     color: var(--primary-color);
-    width: 100%;
+    width: 100vw;
     min-width: 550px;
     display: flex;
     justify-content: space-around;
@@ -37,8 +38,6 @@ nav {
     padding-right: 3px;
     box-shadow: 4px 4px 10px black;
     padding-bottom: 10px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 5px;
     font-weight: bolder;
     
 
@@ -91,7 +90,7 @@ a {
     height: 50px;
     margin-top: 20px;
     text-align: center;
-    background-color: rgb(245, 240, 240);
+    background-color: rgb(255, 255, 255);
 }
 
 .text-main > h1 {
@@ -141,7 +140,7 @@ a {
 
 .ben-nuclear {
     max-width: 1000px;
-    background-color: rgb(250, 241, 241);
+    background-color: rgb(255, 255, 255);
     color: var(--text-color);
     height: auto;
     margin: auto;
