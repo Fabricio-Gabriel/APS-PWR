@@ -82,7 +82,7 @@ a {
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 600px) {
     .listas {
        margin-right: 100px;
     }
