@@ -54,7 +54,7 @@ p {
     gap: 30px;
     margin-right: 20px;
     font-size: 1.1em;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .listas-nav {
