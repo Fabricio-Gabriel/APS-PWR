@@ -39,6 +39,7 @@ nav {
     box-shadow: 4px 4px 10px black;
     padding-bottom: 10px;
     font-weight: bolder;
+    gap: 0px;
     
 
 }
@@ -84,6 +85,10 @@ a {
 @media screen and (max-width: 600px) {
     nav {
         width: 100%;
+    }
+
+    .listas-nav {
+        margin: 0;
     }
 }
 
