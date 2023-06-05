@@ -83,15 +83,8 @@ a {
 }
 
 @media screen and (max-width: 600px) {
-    .listas {
-       margin-right: 150px;
-    }
-
-    
-
-    .logo {
-        
-        margin-right: 150px;
+    nav {
+        width: 80vw;
     }
 }
 
