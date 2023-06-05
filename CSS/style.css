@@ -81,6 +81,10 @@ a {
     margin-bottom: 10px;
 }
 
+main {
+    margin: 0 auto;
+}
+
 .text-main {
     max-width: 1000px;
     background-color: rgb(255, 255, 255);
