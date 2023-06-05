@@ -23,6 +23,7 @@ body {
     background-color: var(--primary-color);
     font-family: var(--font-site);
     width: 100vw;
+    overflow-x: hidden;
 }
 
 
