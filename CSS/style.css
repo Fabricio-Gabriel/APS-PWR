@@ -31,7 +31,6 @@ nav {
     background: rgb(113, 23, 173);
     color: var(--primary-color);
     width: 100vw;
-    min-width: 550px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -84,7 +83,7 @@ a {
 
 @media screen and (max-width: 600px) {
     nav {
-        width: 80vw;
+        width: 100%;
     }
 }
 
