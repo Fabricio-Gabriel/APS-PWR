@@ -57,6 +57,10 @@ p {
     flex-wrap: wrap;
 }
 
+.listas {
+    background-color: aqua;
+}
+
 .listas-nav {
     padding: 4px;
     border-radius: 10px;
@@ -87,8 +91,16 @@ a {
         width: 100%;
     }
 
+    .logo {
+        margin-right: 60px;
+    }
+
     .listas-nav {
         margin: 0;
+    }
+
+    .listas {
+        margin-right: 130px;
     }
 }
 
